@@ -8,4 +8,5 @@ if guess == number:
     print("You win!") 
 else: 
     print(f"Wrong! The number was {number}")
+    
 print(f"Time taken: {time.time() - start_time:.2f}s") 
