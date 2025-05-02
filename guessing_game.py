@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import random
 number = random.randint(1, 50)
 print("Guess a number between 1 and 10")
@@ -8,12 +9,13 @@ if guess < number:
 elif guess > number:
  print("Too high!")
 =======
+=======
+>>>>>>> e03cd43f9870f9877c131805402ac6cd80b52da6
 import random 
-number = random.randint(1, 10) 
+number = random.randint(1, 100) 
 print("Guess a number between 1 and 10") 
 guess = int(input()) 
 if guess == number: 
     print("You win!") 
 else: 
     print(f"Wrong! The number was {number}")
->>>>>>> 86ca4c2b73e1f999dd82fea5c6afd4c6fde8f4af
