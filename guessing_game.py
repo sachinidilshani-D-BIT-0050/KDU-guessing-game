@@ -1,3 +1,5 @@
+import time
+start_time = time.time()
 import random 
 number = random.randint(1, 75) 
 print("Guess a number between 1 and 10") 
